@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
     }
 
     std::cout << "Total: " << count << " book(s)" << std::endl;
+    std::cout << "Thank you for using the XML Parser!" << std::endl;
 
     xmlFreeDoc(doc);
     xmlCleanupParser();
